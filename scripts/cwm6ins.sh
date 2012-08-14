@@ -9,13 +9,13 @@ mkdir -p recoveries/cwm6
 cd recoveries/cwm6
 rm -f *.* 2>/dev/null
 cd recoveries/cwm6/
-echo downloading...
+echo "downloading..."
 wget --output-document=roncwm.zip http://db.tt/ie5q24g2
 clear
-echo extracting zip...
+echo "extracting zip..."
 unzip *.zip
-echo zip extracted
-echo configuring extracted files...
+echo "zip extracted"
+echo "configuring extracted files..."
 mv *.img recovery.img
 cd ..
 cd ..

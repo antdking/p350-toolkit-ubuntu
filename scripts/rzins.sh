@@ -9,13 +9,13 @@ mkdir -p recoveries/rz
 cd recoveries/rz
 rm -f *.* 2>/dev/null
 cd recoveries/rz/
-echo downloading...
+echo "downloading..."
 wget --output-document=keyurrz.zip http://db.tt/iydRzmde
 clear
-echo extracting zip...
+echo "extracting zip..."
 unzip *.zip
-echo zip extracted
-echo configuring extracted files...
+echo "zip extracted"
+echo "configuring extracted files..."
 mv *.img recovery.img
 cd ..
 cd ..

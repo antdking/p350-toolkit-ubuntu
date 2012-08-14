@@ -9,13 +9,13 @@ mkdir -p recoveries/cwmt
 cd recoveries/cwmt
 rm -f *.* 2>/dev/null
 cd recoveries/cwmt/
-echo downloading...
+echo "downloading..."
 wget --output-document=vivekcwmt.zip http://db.tt/X8NNpwPt
 clear
-echo extracting zip...
+echo "extracting zip..."
 unzip *.zip
-echo zip extracted
-echo configuring extracted files...
+echo "zip extracted"
+echo "configuring extracted files..."
 mv *.img recovery.img
 cd ..
 cd ..

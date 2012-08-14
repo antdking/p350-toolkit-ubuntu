@@ -9,13 +9,13 @@ mkdir -p recoveries/cwm5
 cd recoveries/cwm5
 rm -f *.* 2>/dev/null
 cd recoveries/cwm5/
-echo downloading...
+echo "downloading..."
 wget --output-document=keyurcwm.zip http://db.tt/wKJ78iXr
 clear
-echo extracting zip...
+echo "extracting zip..."
 unzip *.zip
-echo zip extracted
-echo configuring extracted files...
+echo "zip extracted"
+echo "configuring extracted files..."
 mv *.img recovery.img
 cd ..
 cd ..

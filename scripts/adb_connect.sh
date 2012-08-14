@@ -2,7 +2,7 @@
 clear
 cd dependancies
 echo
-echo testing...
+echo "testing..."
 sudo adb start-server
 sudo adb devices
 cd ..

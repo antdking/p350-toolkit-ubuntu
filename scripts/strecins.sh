@@ -8,13 +8,13 @@ mkdir -p recoveries/stockrec
 cd recoveries/stockrec
 rm -f *.* 2>/dev/null
 cd recoveries/stockrec/
-echo downloading...
+echo "downloading..."
 wget --output-document=stockrec.zip http://db.tt/pNHO1TX9
 clear
-echo extracting zip...
+echo "extracting zip..."
 unzip *.zip
-echo zip extracted
-echo configuring extracted files...
+echo "zip extracted"
+echo "configuring extracted files..."
 mv *.img recovery.img
 cd ..
 cd ..

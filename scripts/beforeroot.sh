@@ -11,6 +11,6 @@ case "$choice" in
   2) scripts/supersu.sh;;
   * ) echo "invalid option"; sleep 2 ; scripts/beforeroot.sh;;
   esac
-  echo invalid choice
+  echo "invalid choice"
   sleep 2
  scripts/beforeroot.sh

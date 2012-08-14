@@ -18,15 +18,15 @@ echo "[X] exit"
 
 read -p "type your choice here..." choice
 case "$choice" in 
-  1) script/amonra.sh ;;
-  2) script/cwm5.sh ;;
-  3) script/rz.sh ;;
-  4) script/cwmt.sh ;;
-  5) script/cwm6.sh ;;
-  6) script/strec.sh ;;
-  7) script/menu.sh ;;
-  x|X)echo exiting... ; sleep 2 ; exit ;;
+  1) scripts/amonra.sh ;;
+  2) scripts/cwm5.sh ;;
+  3) scripts/rz.sh ;;
+  4) scripts/cwmt.sh ;;
+  5) scripts/cwm6.sh ;;
+  6) scripts/strec.sh ;;
+  7) scripts/menu.sh ;;
+  x|X)echo "exiting..." ; sleep 2 ; exit ;;
   esac
-  echo invalid choice
+  echo "invalid choice"
   sleep 2
  scripts/recins.sh

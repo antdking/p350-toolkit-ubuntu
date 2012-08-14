@@ -19,7 +19,7 @@ adb -d wait-for-devices shell "mount -o remount,ro -t rfs /dev/block/st19 /syste
 echo "installing RootCheckPro..."
 adb -d wait-for-device install root/RootCheckPro.apk
 echo "your device should now be unrooted"
-echo rebooting your device...
+echo "rebooting your device..."
 read -p "press any key to continue" -n1 -s
 adb -d wait-for-device reboot
 echo "to check your device is unrooted, run root checker"

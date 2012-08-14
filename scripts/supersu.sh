@@ -5,8 +5,8 @@ if [ -e su.apk ];
 then
 rm -iv su.apk
 fi
-cp superuser.apk sup
-mv sup/superuser.apk su.apk
+cp supersu.apk sup
+mv sup/supersu.apk su.apk
 cd ..
 cd ..
 scripts/root.sh

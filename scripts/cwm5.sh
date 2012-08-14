@@ -6,6 +6,6 @@ case "$choice" in
   n|N ) echo "returning to recovery chooser" ; sleep 2 ; scripts/recins.sh  ;;
   * ) echo "invalid option"; sleep 2 ; scripts/cwm5.sh;;
   esac
-  echo invalid choice
+  echo "invalid choice"
   sleep 2
  scripts/cwm5.sh

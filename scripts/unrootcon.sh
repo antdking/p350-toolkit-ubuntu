@@ -10,10 +10,10 @@ echo "own fault"
 sleep 2
 read -p "do you wish to continue?(y/n)" choice
 case "$choice" in 
-  y|Y ) script/unroot.sh ;;
+  y|Y ) scripts/unroot.sh ;;
   n|N ) echo "returning to menu..." ; sleep 1 ; scripts/menu.sh;;
   * ) echo "invalid option"; sleep 2 ; scripts/unrootcon.sh;;
   esac
-  echo invalid choice
+  echo "invalid choice"
   sleep 2
  scripts/unrootcon.sh

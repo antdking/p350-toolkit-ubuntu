@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ! -e menu ]
+if [ ! -e tool_kit ]
 then
   echo
   echo "Ensure you run this file from the SAME folder as where it was"

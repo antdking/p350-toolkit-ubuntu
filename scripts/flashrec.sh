@@ -15,7 +15,7 @@ adb -d wait-for-device shell "su -c 'sync'"
 
 echo "flashing now finished. rebooting to recovery.."
 read -p "press any key to continue" -n1 -s
-echo rebooting...
+echo "rebooting..."
 adb -d wait-for-device shell "su -c 'reboot recovery'"
 rm -f recovery.img 2>dev/null
 cd ..

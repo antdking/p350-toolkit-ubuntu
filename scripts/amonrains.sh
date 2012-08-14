@@ -9,13 +9,13 @@ mkdir -p recoveries/amonra
 cd recoveries/amonra
 rm -f *.* 2>/dev/null
 cd recoveries/amonra/
-echo downloading...
+echo "downloading..."
 wget --output-document=amonra.zip http://db.tt/pUPLPCrv
 clear
-echo extracting zip...
+echo "extracting zip..."
 unzip *.zip
-echo zip extracted
-echo configuring extracted files...
+echo "zip extracted"
+echo "configuring extracted files..."
 mv *.img recovery.img
 cd ..
 cd ..
