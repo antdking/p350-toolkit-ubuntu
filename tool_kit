@@ -1,0 +1,20 @@
+#!/bin/bash
+if [ ! -e menu ]
+then
+  echo
+  echo "Ensure you run this file from the SAME folder as where it was"
+  echo "installed, otherwise the tool_kit will have problems running the"
+  echo "scripts.  Start the tool_kit with the ./tool_kit command, NOT with"
+  echo "any other command or method!"
+  exit 0
+fi
+echo
+echo "welcome to antdking's P350 Toolkit"
+echo "this will guide you through rooting your phone,"
+echo "choosing a recovery or unrooting"
+sleep 2
+echo "please report any suggestions and problems you have"
+echo "to me"
+echo
+read -p "Press any key to continue... " -n1 -s
+scripts/connect.sh
